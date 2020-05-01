@@ -1,0 +1,223 @@
+ /* ---Fondo--- */
+    #blanco{
+        position: absolute;
+        z-index: -10;
+        left: 65px;
+        width: 90%;
+        top: 45px;
+        height: 540px;
+    }
+
+    #amarillo{
+        position: absolute;
+        height: 4px;
+        width: 90%;
+        z-index: -10;
+        left: 65px;
+        top: 45px;
+    }
+
+    #gris{
+        position: absolute;
+        height: 340px;
+        width: 23%;
+        z-index: -8;
+        left: 85px;
+        top: 210px;
+    }
+
+    #imagen{
+        width: 900px;
+    }
+/* ---Encabezado--- */
+    .nombre {
+        position: absolute;
+        color: #e2b137;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        top: 40px; left: 1000px;
+    }
+
+    .encabezado {
+        color: #ffffff;
+        font-size: 18px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        position: absolute;
+        background-color: #839995;
+        left: 85px; top: 145px; 
+        width: 85%;
+
+        padding-top: 3px;
+        padding-left: 25px;
+        padding-bottom: 5px;
+    }
+
+    .logo{
+        width: 380px;
+        position: absolute;
+        top: 80px;
+        left: 105px;
+        
+    }
+
+    .foto--perfil {
+        border-radius: 2%;
+        background-color: #839995;
+        padding: 5px;
+        position: absolute;
+        top: 163px;left: 1097px;
+        padding-bottom: 40px;
+    }
+
+    #links{
+        position: absolute;
+        top: 100px; 
+        left: 1005px;
+    }
+
+/* ---Texto separado--- */
+
+    #titulo{
+        position: absolute;
+        color: #839995;
+        font-family: Arial, Helvetica, sans-serif;
+
+        top: 209px; left: 185px;
+        font-size: 18px;
+    }
+
+    .separador{
+        position: absolute;
+        top: 252px; left: 107px;
+    }
+
+    p{
+        font-size: 17px;
+        color: #e2b137;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    h6{
+        margin-bottom: 1px;
+        font-size: 17px;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    li{
+        color: #575757;
+        font-size: 13px;
+        position: relative;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-bottom: 15px;
+    }
+    .categorias {
+        list-style: none;
+        color: #000000;
+        position: relative;
+        top: 270px; left: 65px;
+    }
+
+    .datos{
+        list-style: none;
+        color: #000000;
+        position: absolute;
+        top: 270px; left: 143px;
+        text-align: right;
+    }
+
+
+    /* ---Cuerpo--- */
+
+    .bienvenidos{
+        position: absolute;
+        color: #839995;
+        font-family: Arial, Helvetica, sans-serif;
+
+        top: 200px; left: 430px;
+    }
+
+    .cuerpo{
+        color: #839995;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+
+        top: 240px; left: 430px; width: 45%;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .juegos{
+        color: #839995;
+        position: relative;
+        top: 150px; left: 430px;
+        font-size: 16px;
+    }
+
+    #favoritos{
+        position: absolute;
+        left: 430px;
+        top: 360px;
+        background-color: #839995;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 510px;
+    }
+
+    /* ---Logos--- */
+
+    #CSGO{
+        width: 100px;
+        background-color: #839995;
+        padding: 5px;
+        border-radius: 2%;
+
+        position: absolute;
+        top: 428px; left: 800px;
+    }
+
+    #MC{
+        width: 100px;
+        background-color: #839995;
+        padding: 5px;
+        border-radius: 2%;
+
+        position: absolute;
+        top: 428px; left: 960px;
+    }
+
+    #RL {
+        width: 100px;
+        background-color: #839995;
+        padding: 5px;
+        border-radius: 2%;
+
+        position: absolute;
+        top: 428px; left: 1120px;
+    }
+
+
+/* ---Redes--- */ 
+
+    #IG{
+        width: 25px;
+        position: absolute;
+        top: 325px; left: 1120px;
+    }
+
+    #spotify{
+        width: 25px;
+        position: absolute;
+        top: 325px; left: 1165px;
+    }
+
+    #youtube{
+        width: 25px;
+        position: absolute;
+        top: 325px; left: 1210px;
+    }
+
+    a{
+        color: #e2b137;
+    }
