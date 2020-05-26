@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <body id="imagen" background="../images/Background.jpg"></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLicker</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/eventos mouse.css">
+</head>
+<body>
+
+    <img id="blanco" src="../images/Blanco.jpg">
+    <img id="amarillo" src="../images/Amarillo.jpg">
+
+    <img class= "logo" src="../images/Logo UNRaf Horizontal.png" alt="UNRaf logo" title="UNRaf">
+
+    <h2 class="linea">volver</h2>
+
+    <a href="./Indice.html"><h2 class="volver">Volver</h2></a>
+
+    <h6 class="evento">Evento con <br> &nbsp;&nbsp;&nbsp;&nbsp;mouse</h6>
+
+    <script>
+        window.onload = function click () {
+        var contador = 0;
+        document.getElementById("boton").onclick = function (){
+        contador ++;
+        document.getElementById("mostrar").innerHTML = contador
+        }
+        }
+
+    </script>
+    
+    <button id="boton">CLICK AQUI</button>
+    <h2 class="clicks">Has dado <span id="mostrar"></span> Clicks</h2>
+    
+</body>
+</html>

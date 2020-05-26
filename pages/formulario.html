@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <body id="imagen" background="../images/Background.jpg"></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/formulario.css">
+</head>
+<body>
+
+    <img id="blanco" src="../images/Blanco.jpg">
+    <img id="amarillo" src="../images/Amarillo.jpg">
+
+    <img class= "logo" src="../images/Logo UNRaf Horizontal.png" alt="UNRaf logo" title="UNRaf">
+
+    <h2 class="linea">volver</h2>
+
+    <img id= "gris" src="../images/Gris.jpg">
+
+    <img class="separador" src="../images/separador.PNG">
+
+    <a href="./Indice.html"><h2 class="volver">Volver</h2></a>
+
+    <h1 class="formulario">Formulario</h1>
+
+    <h2 class="datos">Ingrese sus datos por favor:</h2>
+
+    <div class="encuadrar">
+    <h6 class="textos">Nombre:</h6>
+    <input type="text" id="Nombre" maxlength="20" required="">
+    <h6 class="textos">Apellido:</h6>
+    <input type="text" id="Apellido" maxlength="20" required="">
+    <h6 class="textos">Edad:</h6>
+    <input type="number" id="Edad" maxlength="3" required="">
+    <h6 class="textos">Ciudad:</h6>
+    <input type="text" id="Ciudad" required="">
+
+    <button id="boton" type="submit">Enviar</button>
+
+    </div>
+            
+    <h6 class="parrafo" id="parrafo"></h6>
+
+    <script type="text/javascript">
+    var boton = document.getElementById("boton");
+    boton.onclick = function(){
+            
+        var Nombre = document.getElementById("Nombre").value;
+        var Apellido = document.getElementById("Apellido").value;
+        var Edad = document.getElementById("Edad").value;
+        var Ciudad = document.getElementById("Ciudad").value;
+        
+        document.getElementById("parrafo").innerHTML = "Bienvenido " + Nombre + " " + Apellido + " de " + Ciudad + ", encantado/a de conocerte. Esta piola tener " + Edad + ".";
+    }
+    </script>
+    
+
+</body>
+</html>

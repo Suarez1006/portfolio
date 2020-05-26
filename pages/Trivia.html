@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+    <body id="imagen" background="../images/Background.jpg"></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/trivia.css">
+
+</head>
+<body>
+
+    <img id="blanco" src="../images/Blanco.jpg">
+    <img id="amarillo" src="../images/Amarillo.jpg">
+
+    <img class= "logo" src="../images/Logo UNRaf Horizontal.png" alt="UNRaf logo" title="UNRaf">
+
+    <h2 class="linea">volver</h2>
+
+    <a href="./Indice.html"><h2 class="volver">Volver</h2></a>
+
+    <h1 class="trivia">Trivia</h1>
+
+    <script type="text/javascript"> 
+        var correcto = 0;
+        var erradas=0;
+
+        var multiplicacion = prompt ("¿Cuánto es 15*3?");
+
+        if (multiplicacion == "45"){
+            correcto=1;
+            alert("Correcto")
+        }else{
+            erradas=1;
+            alert("Incorrecto")
+        }
+
+        var MC = prompt ("¿En qué año se creo minecraft?");
+
+        if (MC == "2009"){
+            correcto=correcto+1;
+            alert("Correcto")
+        }else{
+            erradas=erradas+1;
+            alert("Incorrecto")
+        }
+
+        var suma = prompt ("¿Cuánto es el doble de 2 mas 1?");
+
+        if (suma == "5"){
+            correcto=correcto+1;
+            alert("Correcto")
+        }else{
+            erradas=erradas+1;
+            alert("Incorrecto")
+        }
+      
+        var pulgada = prompt ("¿Cuántos centimetros son una pulgada?");
+
+        if (pulgada == "2,54"){
+            correcto=correcto+1;
+            alert("Correcto");
+        }else{
+            if(pulgada == "2,54 cm"){
+                correcto=correcto+1;
+                alert("Correcto");
+            }else{
+                if(pulgada == "2,54cm"){
+                    correcto=correcto+1;
+                    alert("Correcto");
+                }else{
+                    erradas=erradas+1;
+                    alert("Incorrecto")
+                }
+            }
+        }
+
+        var unraf = prompt("¿En qué año se fundo la UNRaf?")
+
+        if (unraf == "2014"){
+            correcto=correcto+1;
+            alert("Correcto")
+        }else{
+            alert("Incorrecto")
+            erradas=erradas+1;
+        }
+
+        alert("Correctas "+correcto);
+        alert("Incorrectas "+erradas);
+        total=correcto-erradas
+        alert("Puntuación final "+total);
+        
+    </script>
+
+    <h2 id="completada">¡Trivia Completada!</h2>
+</body>
+</html>

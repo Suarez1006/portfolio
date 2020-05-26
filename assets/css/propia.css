@@ -1,0 +1,73 @@
+#blanco{
+    position: absolute;
+    z-index: -10;
+    left: 65px;
+    width: 90%;
+    top: 45px;
+    height: 560px;
+}
+
+#amarillo{
+    position: absolute;
+    height: 4px;
+    width: 90%;
+    z-index: -10;
+    left: 65px;
+    top: 45px;
+}
+
+#gris{
+    position: absolute;
+    height: 300px;
+    width: 50%;
+    z-index: -8;
+    left: 200px;
+    top: 245px;
+    border-radius: 1%;
+}
+
+.logo{
+    width: 380px;
+    position: absolute;
+    top: 80px;
+    left: 105px;
+}
+
+.volver{
+    position: absolute;
+    color: #ffffff;
+    
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+    left: 100px; top: 154px; 
+}
+
+.linea{
+    background-color: #839995;
+    position: absolute;
+    top: 150px; left: 85px;
+    color: #839995;
+
+    padding-top: 6px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    width: 85.35%;
+
+    font-size: 16px;
+}
+
+#titulo{
+    color: #839995;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.contenedor{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    position: absolute;
+    top: 260px; left: 240px;
+    color: #839995;
+}

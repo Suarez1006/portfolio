@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <body id="imagen" background="../images/Background.jpg"></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Evento recurrente</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/evento.css">
+</head>
+<body>
+
+    <img id="blanco" src="../images/Blanco.jpg">
+    <img id="amarillo" src="../images/Amarillo.jpg">
+
+    <img class= "logo" src="../images/Logo UNRaf Horizontal.png" alt="UNRaf logo" title="UNRaf">
+
+    <h2 class="linea">volver</h2>
+
+    <a href="./Indice.html"><h2 class="volver">Volver</h2></a>
+
+    <h6 class="evento">Evento recurrente<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en el tiempo</h6>
+
+    <script>
+        Timmer = setInterval(sec30, 3000);
+
+        function sec30() {
+            alert("Pasaron 30 segundos");
+        }
+
+        function pausar(){
+            clearInterval(Timmer);
+            alert("Pausado")
+        }
+
+        function reanudar(){
+            alert("Reanudado")
+        }
+    </script>
+
+    <h2 id="pausar" onclick="pausar();">Pausar</h2>
+
+    <h2 id="reanudar" onclick="Timmer = setInterval(sec30,3000); reanudar();">Reanudar</h2>
+
+
+</body>
+</html>

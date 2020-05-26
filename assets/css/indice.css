@@ -1,0 +1,133 @@
+a{
+    color: #839995;
+}
+
+.linea{
+    background-color: #839995;
+    position: absolute;
+    top: 150px; left: 85px;
+    color: #839995;
+
+    padding-top: 6px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    width: 85.35%;
+
+    font-size: 16px;
+}
+.indice{
+    position: absolute;
+    color: #e2b137;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    top: 50px; left: 1060px;
+    font-size: 40px;
+}
+
+#trivia{
+    position: absolute;
+    left: 650px; top: 220px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#evento{
+    position: absolute;
+    left: 640px; top: 290px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#formulario{
+    position: absolute;
+    left: 615px; top: 360px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#teclado{
+    position: absolute;
+    left: 570px; top: 430px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#propia{
+    position: absolute;
+    left: 645px; top: 500px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#blanco{
+    position: absolute;
+    z-index: -10;
+    left: 65px;
+    width: 90%;
+    top: 45px;
+    height: 560px;
+}
+
+#amarillo{
+    position: absolute;
+    height: 4px;
+    width: 90%;
+    z-index: -10;
+    left: 65px;
+    top: 45px;
+}
+
+#gris{
+    position: absolute;
+    height: 357px;
+    width: 32%;
+    z-index: -8;
+    left: 475px;
+    top: 225px;
+}
+
+.logo{
+    width: 380px;
+    position: absolute;
+    top: 80px;
+    left: 105px;
+}
+
+.volver{
+    position: absolute;
+    color: #ffffff;
+    
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+    left: 100px; top: 154px; 
+}
+
+.sep1{
+    position: absolute;
+    top: 285px;
+    left: 500px; width: 390px;
+}
+
+.sep2{
+    position: absolute;
+    top: 355px;
+    left: 500px; width: 390px;
+}
+
+.sep3{
+    position: absolute;
+    top: 425px;
+    left: 500px; width: 390px;
+}
+
+.sep4{
+    position: absolute;
+    top: 495px;
+    left: 500px; width: 390px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <body id="imagen" background="../images/Background.jpg"></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/propia.css">
+</head>
+<body>
+
+    <img id="blanco" src="../images/Blanco.jpg">
+    <img id="amarillo" src="../images/Amarillo.jpg">
+
+    <img class= "logo" src="../images/Logo UNRaf Horizontal.png" alt="UNRaf logo" title="UNRaf">
+
+    <h2 class="linea">volver</h2>
+
+    <a href="./Indice.html"><h2 class="volver">Volver</h2></a>
+
+    <img id= "gris" src="../images/Gris.jpg">
+
+    <div class="contenedor">
+        <h1 id="titulo">Calculadora</h1>
+        <br>
+        <h2 class="numeros">Ingrese dos números y elija la operación deseada:</h2>
+        <br>
+        <br>
+        <input id="a" type="number">
+        <input id="b" type="number">
+        <input type="button" onclick="suma(document.getElementById('a').value,document.getElementById('b').value);" value="Sumar">
+        <input type="button" onclick="resta(document.getElementById('a').value,document.getElementById('b').value);" value="Restar">
+        <input type="button" onclick="multiplicacion(document.getElementById('a').value,document.getElementById('b').value);" value="Multiplicar">
+        <input type="button" onclick="division(document.getElementById('a').value,document.getElementById('b').value);" value="Dividir">
+    </div>
+    
+    <script type="text/javascript">
+    
+    function suma(a,b)
+    {
+        var r = Number(a)+Number(b);
+        alert("Resultado: " + r);
+    }
+    function resta(a,b)
+    {
+        var r = Number(a)-Number(b);
+        alert("Resultado: " + r);
+    }
+    function multiplicacion (a,b)
+    {
+        var r = Number(a)*Number(b);
+        alert("Resultado: " + r);
+    }
+    function division (x,y)
+    {
+        var r = Number(x)/Number(y);
+        alert("Resultado: " + r);
+    }
+    </script>
+
+</body>
+</html>
