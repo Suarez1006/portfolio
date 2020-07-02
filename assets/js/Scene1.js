@@ -39,7 +39,7 @@ class Scene1 extends Phaser.Scene {
       repeat: -1,
     });
 
-    var logo = this.add.image(400, 300, "logo").setScale(0.26);
+    var logo = this.add.image(640, 360, "logo").setScale(0.26);
 
     logo.setInteractive();
     logo.on("pointerdown", () => {
